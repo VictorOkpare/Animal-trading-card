@@ -1,0 +1,66 @@
+body {
+  background-color: #e4b9a8;
+  height: 100vh;
+}
+
+.animal-card-container {
+  /* border: solid 3px; */
+  width: 400px;
+  height: 90vh;
+  margin: 30px auto;
+  background-color: #ed6b5d;
+  border-radius: 10px;
+}
+.image-container {
+  /* border: solid 3px; */
+  width: 65%;
+  height: 35%;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-blend-mode: luminosity;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 17px auto;
+}
+.text-container {
+  /* border: solid 3px; */
+  width: 85%;
+  height: 55%;
+  margin: 30px auto;
+  background-color: #f2b6ab;
+  border-radius: 10px;
+}
+.flamingo-header {
+  font-family: "Lily Script One", system-ui;
+  font-size: 30px;
+  text-align: center;
+  color: #32462a;
+  margin: 0px;
+  font-weight: bold;
+  padding: 0px;
+  position: relative;
+}
+.flamingo-header span {
+  font-family: "Updock", cursive;
+  font-weight: bold;
+  font-size: 13px;
+  color: #32462a;
+  text-align: center;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+}
+.list-text {
+  font-family: "Lily Script One", system-ui;
+  font-size: 10px;
+  color: #b82110;
+  width: 250px;
+  margin: 0 auto;
+}
+.list-text dt {
+  color: #32462a;
+  text-wrap: pretty;
+}
